@@ -1,5 +1,22 @@
 # simple-o1-agent
 
+## How to use
+
+1. Install the dependencies
+
+```shell
+pip install -r requirements.txt
+```
+
+2. Run the program
+
+```shell
+cd streamlit
+streamlit run chatbot.py
+```
+
+## todo
+
 1. [ ] codebase_search：
     在代码库中搜索相关的代码片段
     可以根据语义查找代码
@@ -35,6 +52,6 @@
     在用户系统上运行终端命令
     需要评估命令的安全性
     可以执行各种系统操作
-10. [ ] command_status：
+1. [ ] command_status：
      查看之前执行的命令状态
      可以获取命令输出和执行结果
