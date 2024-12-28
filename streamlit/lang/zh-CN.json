@@ -1,0 +1,15 @@
+{
+    "chat_tab": "💬 聊天记录",
+    "LLM_tab": "🤖 LLM",
+    "settings_tab": "⚙️ 设置",
+    "service_provider": "☁️ 服务商",
+    "api_key": "🔑 API Key",
+    "base_url": "🔗 Base URL",
+    "api_version": "📦 API 版本",
+    "toggle_model_input": "↔️ 切换模型输入方式",
+    "select_model": "📜 选择模型",
+    "input_model": "⌨️ 输入模型",
+    "system_role": "系统角色",
+    "chat_history_interface": "这里是聊天记录界面",
+    "language_select": "🌏 语言"
+}
