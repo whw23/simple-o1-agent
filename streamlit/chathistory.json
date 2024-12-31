@@ -1,0 +1,70 @@
+[
+    {
+        "uuid": "123e4567-e89b-12d3-a456-426614174000",
+        "timestamp": "2024-12-01T00:00:00Z",
+        "title": "Chat test 1",
+        "message": [
+            {
+                "role": "system",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "You are an AI assistant that helps people find information."
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "你好呀"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "你好！有什么我可以帮助你的吗？"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "uuid": "9f8c4e5a-2b3c-4f1d-a2c8-8e77e4c3d2a1",
+        "timestamp": "2024-12-31T00:00:00Z",
+        "title": "Chat python 2",
+        "message": [
+            {
+                "role": "system",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "You are an AI assistant that helps people find information."
+                    }
+                ]
+            },
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "帮我生成一段python hello world"
+                    }
+                ]
+            },
+            {
+                "role": "assistant",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "当然可以！以下是一段简单的Python代码，用于打印“Hello, World!”：\n\n```python\nprint(\"Hello, World!\")\n```\n\n你可以将这段代码复制到你的Python环境中运行，比如IDLE、Jupyter Notebook或者任何支持Python的文本编辑器。运行这段代码后，你将在控制台中看到输出“Hello, World!”。"
+                    }
+                ]
+            }
+        ]
+    }
+]

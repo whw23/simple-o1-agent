@@ -1,15 +1,15 @@
 {
-    "chat_tab": "💬 Chat history",
+    "chat_tab": "💬 Chat",
     "LLM_tab": "🤖 LLM",
     "settings_tab": "⚙️ Settings",
     "service_provider": "☁️ Service Provider",
     "api_key": "🔑 API Key",
     "base_url": "🔗 Base URL",
     "api_version": "📦 API Version",
-    "toggle_model_input": "↔️ Toggle Model Input",
+    "stream_output": "Stream Output",
+    "toggle_model_input": "Toggle Model Input",
     "select_model": "📜 Select Model",
     "input_model": "⌨️ Input Model",
     "system_role": "System Role",
-    "chat_history_interface": "This is the chat history interface",
     "language_select": "🌎 Language"
 }

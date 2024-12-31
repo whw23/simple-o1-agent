@@ -6,7 +6,8 @@ from utils import load_language  # 导入加载语言函数
 
 load_dotenv()
 
-st.set_page_config(page_title="chat", page_icon="🤔", layout="wide", initial_sidebar_state="collapsed", menu_items=None)
+st.set_page_config(page_title="chat", page_icon="🤔", layout="wide",
+                   initial_sidebar_state="collapsed", menu_items=None)
 
 # 初始化语言设置
 if 'language' not in st.session_state:
@@ -14,7 +15,7 @@ if 'language' not in st.session_state:
     st.session_state.language_data = load_language(st.session_state.language)
 
 # 渲染 sidebar
-render_sidebar()  
+render_sidebar()
 
 st.markdown(
     """
